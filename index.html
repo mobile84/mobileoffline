@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/logo.png" type="icon/logo">
+    <link rel="stylesheet" href="main.css">
+    <title>Mobile Offline Official Website</title>
+</head>
+<body>
+    <!--source code for body content-->
+    <div class="content">
+        <!--main website header-->
+        <header class="header">
+            <div class="container">
+                <div class="header-text">
+                    <img src="img/logo.png" alt="error" class="logo">
+                    <span class="logo-text">MobileOffline.com</span>
+                </div>
+                <div class="header-inputs">
+                    <input type="search" class="search" id="search-input" placeholder="Search...">
+                    <input type="button" value="search" id="search">
+                </div>
+            </div>
+        </header>
+        <!--main subheader header-->
+        <div class="subheader">
+            <div>
+                <p>Free games for your Android and PPSSPP</p>
+                <p>For More Info Click <a href="https://youtube.com/channel/UCBHsncoTb_rzNUICHz944Nw">Here</a></p>
+            </div>
+            <img src="img/game.png" alt="error">
+        </div>
+        <!--intro text for game category-->
+        <h3 class="category container">All Available Game Category For Download:</h3>
+        <!--All Button Element for game category-->
+        <div id="buttons" class="container">
+            <button class="button-value" onclick="filterProduct('All_Games')">All_Games</button>
+            <button class="button-value" onclick="filterProduct('Mobile_Games')">Mobile_Games</button>
+            <button class="button-value" onclick="filterProduct('PPSSPP_Games')">PPSSPP_Games</button>
+        </div>
+        <!--intro text for game available for download-->
+        <h3 class="games-available container">All Available Game For Mobile Free Download:</h3>
+        <!--second grid container for game items-->
+        <div class="grid container" id="products">
+            <div class="item game-card PPSSPP_Games">
+                <a href="WWE Smackdown Vs Raw 2K14/wwe.html" class="game-item">
+                    <img src="games/game21.jpg" alt="error">
+                    <p class="product-name">WWE Smackdown Vs Raw 2K14 PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="Ghost Rider PPSSPP/ghost.html" class="game-item">
+                    <img src="games/game20.png" alt="error">
+                    <p class="product-name">Ghost Rider PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="Spider Man 3 PPSSPP/spider.html" class="game-item">
+                    <img src="games/game19.jpg" alt="error">
+                    <p class="product-name">Spider Man 3 PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="Tom Clancy's Rainbow Six PPSSPP/tom.html" class="game-item">
+                    <img src="games/game18.jpg" alt="error">
+                    <p class="product-name">Tom Clancy's Rainbow Six PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Grand Theft Auto The Trilogy/gta.html" class="game-item Mobile_Games">
+                    <img src="games/game17.jpg" alt="error">
+                    <p class="product-name">GTA The Trilogy Android</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="FIFA Soccer 22/fifa.html" class="game-item Mobile_Games">
+                    <img src="games/game16.jpg" alt="error">
+                    <p class="product-name">FIFA Soccer 2022 Android</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Spider Man No Way Home/spider.html" class="game-item Mobile_Games">
+                    <img src="games/game15.jpg" alt="error">
+                    <p class="product-name">Spider Man Android Offline</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="God Of War Chains Of Olympus PPSSPP/god.html" class="game-item">
+                    <img src="games/game14.jpg" alt="error">
+                    <p class="product-name">God Of War PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Bully Anniversary Edition/bully.html" class="game-item Mobile_Games">
+                    <img src="games/game13.jpg" alt="error">
+                    <p class="product-name">Bully Anniversary Edition Android Offline</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="FIFA 2022 Andriod Offline Original Mod/fifa22.html" class="game-item Mobile_Games">
+                    <img src="games/game12.png" alt="error">
+                    <p class="product-name">FIFA 2022 Android Offline</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="Silent Hills/hills.html" class="game-item">
+                    <img src="games/game11.jpg" alt="error">
+                    <p class="product-name">Silent Hills PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="GTA 5/gta5.html" class="game-item">
+                    <img src="games/game10.jpg" alt="error">
+                    <p class="product-name">GTA 5 Android/IOS</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="FIFA 2022 PSP One/fifa22.html" class="game-item">
+                    <img src="games/game9.png" alt="error">
+                    <p class="product-name">FIFA 2022 PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Fading City/fading.html" class="game-item">
+                    <img src="games/game8.png" alt="error">
+                    <p class="product-name">Fading City Android/IOS</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Apex Legend's/Apex.html" class="game-item">
+                    <img src="games/game7.jpg" alt="error">
+                    <p class="product-name">Apex Legends Android/IOS</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Alpha Ace/Ace.html" class="game-item">
+                    <img src="games/game6.jpg" alt="error">
+                    <p class="product-name">Alpha Ace Android/IOS</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="Tekken 7 PPSSPP/tekken.html" class="game-item">
+                    <img src="games/game5.png" alt="error">
+                    <p class="product-name">Tekken 7 PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Mortal Kombat X/mortal.html" class="game-item">
+                    <img src="games/game4.jpg" alt="error">
+                    <p class="product-name">Mortal Kombat X Android/IOS</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="Metal Gear Solid/peace.html" class="game-item">
+                    <img src="games/game3.jpg" alt="error">
+                    <p class="product-name">Metal Gear PPSSPP/PSP</p>
+                </a>
+            </div>
+            <div class="item game-card Mobile_Games">
+                <a href="Original FIFA 2022 Mobile/fifa22.html" class="game-item">
+                    <img src="games/game2.png" alt="error">
+                    <p class="product-name">FIFA 2022 Android/IOS</p>
+                </a>
+            </div>
+            <div class="item game-card PPSSPP_Games">
+                <a href="PES 2022 One/pes22.html" class="game-item">
+                    <img src="games/game1.png" alt="error">
+                    <p class="product-name">Pes 2022 PPSSPP/PSP</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--scource code for footer content-->
+    <footer class="footer-wrapper">
+        <div class="footer-content">
+            <h3>Mobile Offline</h3>
+            <p>Mobile Offline features the best gamming experience and
+                next level Entertainment all on your mobile.
+            </p>
+            <ul class="socials">
+                <li><a href="mailto:steammobile84@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://youtube.com/channel/UCBHsncoTb_rzNUICHz944Nw"><i class="fa fa-youtube"></i></a></li>
+                <li><a href=" https://www.instagram.com/invites/contact/?i=u40z4dh5fg5d&utm_content=nj44jz1"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2019-2022 mobileoffline.com. <span>All Rights Reserved</span></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
